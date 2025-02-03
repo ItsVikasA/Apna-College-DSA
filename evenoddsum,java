@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class evenoddsum {
+    public static void main(String[] args) {
+        int number=0;
+        int choice=0;
+        int evensum=0;
+        int oddsum=0;
+        Scanner Sc=new Scanner(System.in);
+        do
+        {
+            System.out.println("enter thge number");
+            number=Sc.nextInt();
+            if(number%2==0)
+            {
+                evensum+=number;
+
+            }else{
+                oddsum+=number;
+            }
+            System.out.println("do you want to conjtinue if yes press 1 and no then press 0");
+            choice=Sc.nextInt();
+        }
+        while(choice==1);
+        {
+            System.out.println("sum of evensum : " +evensum);
+            System.out.println("sum of oddsum : " +oddsum);
+        }        
+    }
+    
+}
