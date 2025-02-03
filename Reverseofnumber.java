@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Reverseofnumber {
+public class Reverseofnumber
+{
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
@@ -9,11 +10,8 @@ public class Reverseofnumber {
         {
             int lastdigit=n%10;
             System.out.print(lastdigit);
-             n=n/10;
-            
-            
+             n=n/10;  
         }
         System.out.println();
     }
-
 }
