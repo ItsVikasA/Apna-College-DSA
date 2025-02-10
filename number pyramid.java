@@ -1,4 +1,4 @@
-import java.util.Scanner;
+pimport java.util.Scanner;
 public class NumberPyramid {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
