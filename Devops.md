@@ -116,8 +116,7 @@ This guide is licensed under the **MIT License**.
 
 ## **📬 Contact & Support**  
 For any queries or contributions, reach out via:  
-📧 Email: your.email@example.com  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+📧 Email: vikas.ambalazari@gmail.com
 
 ---
 
