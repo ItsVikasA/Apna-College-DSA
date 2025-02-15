@@ -20,7 +20,7 @@ class ATM{
         }
     }
 
-    void withdraw(double amount) {
+    void withdraw(double amount){
         if (amount > 0 && amount <= balance) {
             balance -= amount;
             System.out.println("₹" + amount + " withdrawn successfully!");
