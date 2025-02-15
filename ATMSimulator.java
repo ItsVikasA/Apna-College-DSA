@@ -11,7 +11,7 @@ class ATM{
         System.out.println("Current Balance: ₹" + balance);
     }
 
-    void deposit(double amount) {
+    void deposit(double amount){
         if (amount > 0) {
             balance += amount;
             System.out.println("₹" + amount + " deposited successfully!");
