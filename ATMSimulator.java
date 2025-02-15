@@ -30,7 +30,7 @@ class ATM{
     }
 }
 
-public class ATMSimulator {
+public class ATMSimulator{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ATM atm = new ATM(5000); // Initial balance ₹5000
