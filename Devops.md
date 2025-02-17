@@ -26,7 +26,7 @@ This guide provides a structured learning path to master **Cloud Computing & Dev
 
 ---
 
-## **2️⃣ Master Infrastructure as Code (IaC)**  
+## **2️⃣ Master Infrastructure As Code (IaC)**  
 - **Terraform** – Define and manage cloud resources  
 - **AWS CloudFormation** – Infrastructure setup using YAML/JSON  
 - **Ansible** – Automate server configuration  
