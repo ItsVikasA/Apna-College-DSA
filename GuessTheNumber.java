@@ -16,8 +16,7 @@ public class GuessTheNumber {
             System.out.print("Enter your guess: ");
             guess = scanner.nextInt();
             attempts++;
-
-            if (guess < numberToGuess) {
+        if (guess < numberToGuess) {
                 System.out.println("Too low! Try again.");
             } else if (guess > numberToGuess) {
                 System.out.println("Too high! Try again.");
