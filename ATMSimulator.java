@@ -4,7 +4,7 @@ class ATM{
     private double balance;
 
     ATM(double initialBalance){
-        this.balance = initialBalance;
+    this.balance = initialBalance;
     }
 
     void checkBalance(){
