@@ -34,7 +34,7 @@ public class ContactManager {
                     System.out.println("Exiting...");
                     return;
                 }
-                default -> System.out.println("Invalid choice! Try again.");
+                default ->System.out.println("Invalid choice! Try again.");
             }
         }
     }
