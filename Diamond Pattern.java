@@ -7,7 +7,7 @@ public class DiamondPattern {
         scanner.close();
 
         // Upper half of the diamond
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++){
             // Print spaces
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
