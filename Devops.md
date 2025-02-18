@@ -1,7 +1,7 @@
 # **🚀 Cloud Computing & DevOps Preparation Strategy**  
 
 ## **📌 Overview**  
-This guide provides a structured learning path to master **Cloud Computing & DevOps** concepts, tools, and best practices. Whether you're a beginner or looking to advance your skills, follow this strategy to build a strong foundation and gain hands-on experience.  
+This guide provides a Structured learning path to master **Cloud Computing & DevOps** concepts, tools, and best practices. Whether you're a beginner or looking to advance your skills, follow this strategy to build a strong foundation and gain hands-on experience.  
 
 ---
 
