@@ -9,7 +9,7 @@ public class Factorial {
         number=Sc.nextInt();
         for(int i=1;i<=number;i++)
         {
-        fact *=i;
+        fact*=i;
         }
         System.out.println("factorial of the number is "+fact);
     }
