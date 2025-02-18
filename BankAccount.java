@@ -4,7 +4,7 @@ import java.util.Scanner;
 class Contact{
     String name, phone;
 
-    Contact(String name, String phone) {
+    Contact(String name, String phone){
         this.name = name;
         this.phone = phone;
     }
