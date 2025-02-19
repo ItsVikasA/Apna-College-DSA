@@ -14,7 +14,7 @@ public class Leapyear
         {
             if(year%100!=0)
             {
-                System.out.println("leap year");
+               System.out.println("leap year");
             }
             else
             {
