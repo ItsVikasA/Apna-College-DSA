@@ -7,7 +7,7 @@ public class multiplication
         System.out.println("enter the number");
         int number=sc.nextInt();
         for(int i=1;i<=10;i++)
-        {
+       {
             System.out.println(number + "*" + i + "=" + (number*i));
         }   
     }
