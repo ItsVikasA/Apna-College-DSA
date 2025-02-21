@@ -9,7 +9,7 @@ class Contact{
         this.phone = phone;
     }
 
-    public String toString() {
+    public String toString(){
         return "Name: " + name + ", Phone: " + phone;
     }
 }
