@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Book    {
+class Book      {
     int id;
     String title;
     String author;
