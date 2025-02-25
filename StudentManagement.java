@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 // Student class
-class Student{
+class Student {
     int id;
     String name;
     int age;
