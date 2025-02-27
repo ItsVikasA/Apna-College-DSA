@@ -1,5 +1,5 @@
 public class FloydsTriangle    {
-    public static void main(String[] args){
+    public static void main(String[] args)  {
         int rows = 5; // You can change the number of rows as per your requirement
         int number = 1;
         for (int i = 1; i <= rows; i++) {
