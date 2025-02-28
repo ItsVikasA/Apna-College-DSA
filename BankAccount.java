@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Contact    {
-    String name, phone;
+    String name, phone; 
 
     Contact(String name, String phone){
         this.name = name;
