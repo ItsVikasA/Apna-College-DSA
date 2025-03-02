@@ -9,7 +9,7 @@ class ATM       {
 
     void checkBalance(){
         System.out.println("Current Balance: ₹" + balance);
-    }
+    } 
 
     void deposit(double amount){
         if (amount > 0) {
