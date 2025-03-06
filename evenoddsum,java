@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class evenoddsum    {
+public class evenoddsum     {
     public static void main(String[] args) {
         int number=0;
         int choice=0;
