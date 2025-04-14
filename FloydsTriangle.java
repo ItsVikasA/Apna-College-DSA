@@ -4,8 +4,8 @@ public class FloydsTriangle      {
         int number = 1;
         for (int i = 1; i <= rows; i++) { 
             // Inner loop to print numbers in each row
-            for (int j = 1; j <= i; j++) {
-                System.out.print(number + " ");
+            for (int j = 1; j <= i; j++)  {
+                System.out.print(number + " "); 
                 number++; // Increment number
             }
             // Move to the next line after each row
