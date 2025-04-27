@@ -6,7 +6,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
-public class SnakeGame extends JPanel implements ActionListener  {
+public class SnakeGame extends JPanel implements ActionListener   {
     private final int TILE_SIZE = 25;
     private final int GRID_SIZE = 20;
     private final int SCREEN_SIZE = TILE_SIZE * GRID_SIZE;
