@@ -5,7 +5,7 @@ class ATM  {
     ATM(double initialBalance) {
     this.balance = initialBalance;
     }
-
+ 
     void checkBalance(){
         System.out.println("Current Balance: ₹" + balance);
     } 
