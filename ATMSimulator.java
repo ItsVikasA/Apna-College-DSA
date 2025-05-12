@@ -2,7 +2,7 @@ import java.util.Scanner;
 class ATM  { 
      private double balance;    
 
-    ATM(double initialBalance)      {
+    ATM(double initialBalance)       {
     this.balance = initialBalance;
     }
  
