@@ -12,7 +12,7 @@ class ATM     {
 
     void deposit(double amount) { 
         if (amount > 0) { 
-            balance += amount;
+            balance += amount; 
             System.out.println("₹" + amount + " deposited successfully!");
         } else {
             System.out.println("Invalid deposit amount!");
