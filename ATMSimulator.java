@@ -1,4 +1,4 @@
-import java.util.Scanner;       
+import java.util.Scanner;        
 class ATM     {               
      private double balance;     
 
