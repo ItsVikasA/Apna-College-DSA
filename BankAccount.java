@@ -1,7 +1,7 @@
 import java.util.ArrayList; 
 import java.util.Scanner;
 
-class Contact    {    
+class Contact    {      
     String name, phone;  
 
     Contact(String name, String phone){
