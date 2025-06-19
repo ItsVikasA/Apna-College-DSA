@@ -19,7 +19,7 @@ class ATM {
         }
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(double amount)  {
         if (amount <= 0) {
             System.out.println("❌ Withdrawal amount must be greater than zero!");
         } else if (amount > balance) {
