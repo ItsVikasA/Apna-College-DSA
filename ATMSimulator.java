@@ -6,7 +6,7 @@ class ATM  {
         this.balance = initialBalance;
     }
     
-    public void checkBalance() {
+    public void checkBalance() { 
         System.out.printf("💰 Current Balance: ₹%.2f%n", balance);
     } 
 
