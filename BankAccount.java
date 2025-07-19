@@ -12,7 +12,7 @@ class Contact {
     public String toString(){
         return "Name: " + name + ", Phone: " + phone;
     }
-}
+} 
 
 public class ContactManager {
     static ArrayList<Contact> contacts = new ArrayList<>();
