@@ -16,7 +16,7 @@ public ATM(double initialBalance) {
             System.out.printf("✅ ₹%.2f deposited successfully!%n", amount);
         } else {
             System.out.println("❌ Invalid deposit amount!");
-        }
+        } 
     }
 
     public void withdraw(double amount)  {
