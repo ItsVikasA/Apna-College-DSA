@@ -1,7 +1,7 @@
 import java.util.Scanner;            
 public class DiamondPattern  {          
     public static void main(String[] args)  { 
-        Scanner scanner = new  Scanner(System.in);
+       Scanner scanner = new  Scanner(System.in);
         System.out.print("Enter the number of rows for the upper half: ");
         int n = scanner.nextInt();
         scanner.close();
