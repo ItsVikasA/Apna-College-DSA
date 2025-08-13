@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Student class
+// Student class 
 class Student  { 
     int id;
     String name;
