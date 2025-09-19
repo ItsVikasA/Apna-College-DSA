@@ -8,7 +8,7 @@ public class ButterflyPattern    {
 
         // Upper half of the butterfly
         for (int i = 1; i <= n; i++){
-            // Left half stars
+            // Left half stars 
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
