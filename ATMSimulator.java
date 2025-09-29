@@ -3,7 +3,7 @@ class ATM {
 private double balance;      
 public ATM(double initialBalance)  {     
         this.balance = initialBalance;
-    }
+    } 
     
     public void checkBalance() { 
         System.out.printf("💰 Current Balance: ₹%.2f%n", balance);
