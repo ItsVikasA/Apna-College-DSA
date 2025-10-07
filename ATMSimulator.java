@@ -1,5 +1,5 @@
 import java.util.Scanner;                        
-class ATM {                                                                           
+class ATM  {                                                                           
 private double balance;      
 public ATM(double initialBalance)  {     
         this.balance = initialBalance;
