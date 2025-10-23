@@ -10,7 +10,7 @@ public ATM(double initialBalance) {
     } 
 
     public void deposit(double amount) {
-        if (amount > 0) { 
+        if (amount > 0) {  
             balance += amount;   
             System.out.printf("✅ ₹%.2f deposited successfully!%n", amount);
         } else {
