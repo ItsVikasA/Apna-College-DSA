@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna College DSA - Innovation in Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>InnoVision <span class="accent">DSA</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#algorithms" class="nav-link">Algorithms</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#patterns" class="nav-link">Patterns</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Master <span class="gradient-text">Data Structures</span><br>
+                    & <span class="gradient-text">Algorithms</span>
+                </h1>
+                <p class="hero-description">
+                    Explore innovative solutions and efficient implementations of classic algorithms and data structures. 
+                    Your journey to programming excellence starts here.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Start Learning
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        View Code
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="code-preview">
+                        <div class="code-header">
+                            <div class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="filename">Algorithm.java</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">public</span> <span class="keyword">class</span> <span class="class">BinarySearch</span> {
+    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="method">search</span>(<span class="type">int</span>[] arr, <span class="type">int</span> target) {
+        <span class="type">int</span> left = <span class="number">0</span>, right = arr.length - <span class="number">1</span>;
+        <span class="keyword">while</span> (left <= right) {
+            <span class="type">int</span> mid = left + (right - left) / <span class="number">2</span>;
+            <span class="keyword">if</span> (arr[mid] == target) <span class="keyword">return</span> mid;
+            <span class="keyword">if</span> (arr[mid] < target) left = mid + <span class="number">1</span>;
+            <span class="keyword">else</span> right = mid - <span class="number">1</span>;
+        }
+        <span class="keyword">return</span> -<span class="number">1</span>;
+    }
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="stat-number">25+</h3>
+                    <p class="stat-label">Algorithms</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="stat-number">15+</h3>
+                    <p class="stat-label">Projects</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <h3 class="stat-number">10+</h3>
+                    <p class="stat-label">Patterns</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="stat-number">100%</h3>
+                    <p class="stat-label">Java</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Algorithms Section -->
+    <section id="algorithms" class="algorithms">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="gradient-text">Algorithms</span></h2>
+                <p class="section-subtitle">Explore efficient implementations of fundamental algorithms</p>
+            </div>
+            <div class="algorithms-grid">
+                <div class="algorithm-card">
+                    <div class="card-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="card-title">Mathematical</h3>
+                    <p class="card-description">Factorial, Number operations, and mathematical computations</p>
+                    <div class="card-tech">
+                        <span class="tech-tag">Recursion</span>
+                        <span class="tech-tag">Iteration</span>
+                    </div>
+                    <button class="card-btn">
+                        <span>View Code</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div class="algorithm-card">
+                    <div class="card-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="card-title">Search & Sort</h3>
+                    <p class="card-description">Binary search, sorting algorithms, and optimization techniques</p>
+                    <div class="card-tech">
+                        <span class="tech-tag">Binary Search</span>
+                        <span class="tech-tag">Sorting</span>
+                    </div>
+                    <button class="card-btn">
+                        <span>View Code</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div class="algorithm-card">
+                    <div class="card-icon">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <h3 class="card-title">Game Logic</h3>
+                    <p class="card-description">Game algorithms, random number generation, and interactive logic</p>
+                    <div class="card-tech">
+                        <span class="tech-tag">Random</span>
+                        <span class="tech-tag">Logic</span>
+                    </div>
+                    <button class="card-btn">
+                        <span>View Code</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patterns Section -->
+    <section id="patterns" class="patterns">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pattern <span class="gradient-text">Programming</span></h2>
+                <p class="section-subtitle">Master the art of pattern creation and visualization</p>
+            </div>
+            <div class="patterns-showcase">
+                <div class="pattern-item">
+                    <div class="pattern-visual">
+                        <div class="triangle-pattern">
+                            <div class="pattern-row">*</div>
+                            <div class="pattern-row">**</div>
+                            <div class="pattern-row">***</div>
+                            <div class="pattern-row">****</div>
+                            <div class="pattern-row">*****</div>
+                        </div>
+                    </div>
+                    <h3>Triangle Patterns</h3>
+                    <p>Various triangle patterns including Floyd's triangle and bottom-left patterns</p>
+                </div>
+                
+                <div class="pattern-item">
+                    <div class="pattern-visual">
+                        <div class="diamond-pattern">
+                            <div class="pattern-row">&nbsp;&nbsp;*</div>
+                            <div class="pattern-row">&nbsp;***</div>
+                            <div class="pattern-row">*****</div>
+                            <div class="pattern-row">&nbsp;***</div>
+                            <div class="pattern-row">&nbsp;&nbsp;*</div>
+                        </div>
+                    </div>
+                    <h3>Diamond Pattern</h3>
+                    <p>Beautiful diamond shapes created with stars and mathematical precision</p>
+                </div>
+                
+                <div class="pattern-item">
+                    <div class="pattern-visual">
+                        <div class="butterfly-pattern">
+                            <div class="pattern-row">*&nbsp;&nbsp;&nbsp;&nbsp;*</div>
+                            <div class="pattern-row">**&nbsp;&nbsp;**</div>
+                            <div class="pattern-row">******</div>
+                            <div class="pattern-row">**&nbsp;&nbsp;**</div>
+                            <div class="pattern-row">*&nbsp;&nbsp;&nbsp;&nbsp;*</div>
+                        </div>
+                    </div>
+                    <h3>Butterfly Pattern</h3>
+                    <p>Complex butterfly designs showcasing advanced pattern programming skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Real-world applications and interactive programs</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Snake Game</h3>
+                        <p class="project-description">Classic snake game implementation with collision detection and score tracking</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java Swing</span>
+                            <span class="tech-tag">Game Loop</span>
+                            <span class="tech-tag">2D Graphics</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm">
+                                <i class="fas fa-play"></i>
+                                Demo
+                            </button>
+                            <button class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Library Management</h3>
+                        <p class="project-description">Complete library system with book management and user operations</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Data Management</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ATM Simulator</h3>
+                        <p class="project-description">Banking simulation with account management and transaction processing</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">Banking Logic</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tic Tac Toe</h3>
+                        <p class="project-description">Interactive tic-tac-toe game with AI opponent and win detection</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Game AI</span>
+                            <span class="tech-tag">Strategy</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>InnoVision DSA</h3>
+                    <p>Innovating the future of programming education through hands-on learning and practical implementations.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#algorithms">Algorithms</a></li>
+                        <li><a href="#patterns">Patterns</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Data Structures</a></li>
+                        <li><a href="#">Algorithms</a></li>
+                        <li><a href="#">Design Patterns</a></li>
+                        <li><a href="#">Game Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 InnoVision DSA. All rights reserved. Built with passion for learning.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
