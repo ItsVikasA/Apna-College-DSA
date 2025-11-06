@@ -4,7 +4,7 @@ public class ButterflyPatter {
        Scanner sc =newScanner(System.in);
         System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();  
-        sc.close();
+        sc.close(); 
 
         // Upper half of the butterfly
         for (int i = 1; i <= n; i++){
