@@ -1,5 +1,5 @@
 import java.util.Scanner;                
-public class ButterflyPattern {  
+public class ButterflyPatter {  
      public static void main(String[] args) {   
        Scanner sc =newScanner(System.in);
         System.out.print("Enter the number of rows: ");
